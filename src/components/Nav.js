@@ -1,16 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import './Nav.css';
 
 const Nav = () => {
   return (
     <nav>
-      <Link to="/">Home</Link>
-      <br></br>
-      <Link to="/blog">Blog</Link>
-      <br></br>
-      <Link to="/about">About</Link>
-      <br></br>
-      <Link to="/contact">Contact</Link>
+      <Link to="/">Home</Link> | <Link to="/blog">Blog</Link> |
+      <Link to="/about">About</Link> | <Link to="/contact">Contact</Link>
     </nav>
   );
 };

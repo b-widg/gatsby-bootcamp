@@ -1,12 +1,14 @@
 import React from 'react';
-import Nav from '../components/Nav';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const AboutPage = () => {
   return (
     <div className="about-wrapper">
-      <Nav />
+      <Header />
       <h1 className="title">About Title</h1>
       <p>Here is a bit about me</p>
+      <Footer />
     </div>
   );
 };
