@@ -8,12 +8,23 @@
   text-decoration: none;
 }
 
-.navlist {
+.nav-list {
   display: flex;
   list-style-type: none;
   margin: 0;
 }
 
-.link {
+.nav-item {
   color: #999;
+  font-size: 0.9rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: #666;
+}
+
+.active-nav-item {
+  color: #333;
 }
