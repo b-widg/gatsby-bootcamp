@@ -17,7 +17,7 @@ const BlogPage = () => {
       }
     }
   `);
-  console.log('data:', data);
+
   return (
     <div>
       <Layout>
